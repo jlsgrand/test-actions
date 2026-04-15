@@ -3,7 +3,6 @@ package fr.jgrand;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class CalculateTest {
 
@@ -12,6 +11,13 @@ class CalculateTest {
         Calculate c = new Calculate();
 
         Assertions.assertEquals(3, c.sum(1, 2));
+    }
+
+    @Test
+    void sum2() {
+        Calculate c = new Calculate();
+
+        Assertions.assertEquals(5, c.sum(3, 2));
     }
 
 }
