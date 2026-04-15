@@ -20,4 +20,11 @@ class CalculateTest {
         Assertions.assertEquals(5, c.sum(3, 2));
     }
 
+    @Test
+    void sumOk() {
+        Calculate c = new Calculate();
+
+        Assertions.assertEquals(7, c.sum(3, 4));
+    }
+
 }
