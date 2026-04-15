@@ -20,4 +20,11 @@ class CalculateTest {
         Assertions.assertEquals(5, c.sum(3, 2));
     }
 
+    @Test
+    void sumKo() {
+        Calculate c = new Calculate();
+
+        Assertions.assertEquals(56, c.sum(3, 2));
+    }
+
 }
